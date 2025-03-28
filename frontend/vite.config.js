@@ -22,11 +22,5 @@ export default defineConfig({
   define: {
     'process.env': {}
   },
-  publicDir: 'public',
-  base: '/Smart-ITR-Chatbot/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: true
-  }
+  publicDir: 'public'
 }); 

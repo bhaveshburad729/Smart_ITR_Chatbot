@@ -8,7 +8,7 @@ import { AppProvider } from './context/AppContext';
 import './styles/main.css';
 import './styles/theme.css';
 import Sidebar from './components/Sidebar';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import { AuthProvider } from './context/AuthContext';
